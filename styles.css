@@ -66,7 +66,6 @@
       line-height: 1.3;
     }
 
-   /* Wrapper that holds the line + box */
 .line-container {
   position: relative;
   display: flex;
@@ -76,7 +75,6 @@
   width: 100%;
 }
 
-/* The white horizontal line */
 .center-line {
   position: absolute;
   top: 50%;
@@ -90,7 +88,6 @@
   z-index: 1;
 }
 
-/* The number box, sitting on top of the line */
 .secret-display {
   background: #eaeaea;
   width: fit-content;
@@ -98,7 +95,6 @@
   padding: 0.6rem 2rem;
   position: relative;
   z-index: 2;
-  /* NO negative margin, NO transform */
 }
 
 .secret-number {
